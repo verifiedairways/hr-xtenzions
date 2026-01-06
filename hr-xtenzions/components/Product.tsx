@@ -7,7 +7,7 @@ type ProductProps = {
 
 export default function Product({ name, image }: ProductProps) {
   return (
-    <div className="bg-neutral-900 p-4 rounded-lg text-center">
+    <div className="bg-neutral-800 p-4 rounded-lg text-center">
       <div className="relative w-full h-64">
         <Image
           src={image}

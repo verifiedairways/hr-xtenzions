@@ -2,8 +2,24 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-black">
-      <div className="text-center px-6">
+    <section className="relative h-screen w-full overflow-hidden">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/videos/hair-video.mp4" type="video/mp4" />
+      </video>
+
+      {/* Dark overlay for contrast */}
+      <div className="absolute inset-0 bg-black/50"></div>
+
+      {/* Content */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-6">
+        {/* Logo */}
       <Image
   src="/images/logo.png"
   alt=""

@@ -7,21 +7,21 @@ export default function Testimonials() {
         </h2>
 
         <div className="grid gap-8 md:grid-cols-3">
-          <div className="bg-black p-8 rounded-xl border border-[#d4af37]/20">
+          <div className="bg-purple-800 p-8 rounded-xl border border-[#d4af37]/20">
             <p className="text-gray-300 mb-4">
               “The bone straight hair is super soft and full. I got so many compliments!”
             </p>
             <h4 className="text-[#d4af37] font-semibold">— Amaka O.</h4>
           </div>
 
-          <div className="bg-black p-8 rounded-xl border border-[#d4af37]/20">
+          <div className="bg-purple-800 p-8 rounded-xl border border-[#d4af37]/20">
             <p className="text-gray-300 mb-4">
               “Very original Brazilian hair. No shedding at all. I’ll definitely buy again.”
             </p>
             <h4 className="text-[#d4af37] font-semibold">— Blessing K.</h4>
           </div>
 
-          <div className="bg-black p-8 rounded-xl border border-[#d4af37]/20">
+          <div className="bg-purple-800 p-8 rounded-xl border border-[#d4af37]/20">
             <p className="text-gray-300 mb-4">
               “Fast response on WhatsApp and quality exceeded my expectations.”
             </p>

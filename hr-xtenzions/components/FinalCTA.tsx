@@ -1,6 +1,6 @@
 export default function FinalCTA() {
   return (
-    <section className="bg-[#0b0b0b] py-24 px-6 text-center">
+    <section className="bg-purple-800 py-24 px-6 text-center">
       <h2 className="text-3xl md:text-4xl text-[#d4af37] font-bold mb-6">
         Ready to Upgrade Your Look?
       </h2>
