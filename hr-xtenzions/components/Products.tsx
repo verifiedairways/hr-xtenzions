@@ -3,8 +3,8 @@ import Product from "./Product";
 const products = [
   {
     id: 1,
-    name: "Brazilian Hair",
-    image: "/images/products/brazilian.jpg",
+    name: "Straight Hair",
+    image: "/images/products/straight.jpg",
   },
   {
     id: 2,
