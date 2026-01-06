@@ -11,12 +11,11 @@ export default function Products() {
 
         <div className="grid gap-8 md:grid-cols-3">
           {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              name={product.name}
-              price={product.price}
-              image={product.image}
-            />
+            <Product
+  key={product.id}
+  name={product.name}
+  image={product.image}
+/>
           ))}
         </div>
       </div>
